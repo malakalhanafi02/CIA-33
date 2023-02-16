@@ -1,4 +1,3 @@
-
 from __future__ import print_function
 import time
 from aylien_news_api.rest import ApiException
@@ -6,7 +5,7 @@ from pprint import pprint
 from aylien_news_api import ApiClient, DefaultApi
 
 # set up the API client
-configuration = aylien_news_api.Configuration()
+configuration = ApiClient.configuration()
 configuration.api_key['X-AYLIEN-NewsAPI-Application-ID'] = '10c284c4'
 configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = '217ae7d0e71bcbbb6f10d0aa495cca0a'
 
